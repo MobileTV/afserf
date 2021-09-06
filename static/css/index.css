@@ -1,7 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-.butt-text {
-
+@import url('fonts/1/style.css');
+.header .main .main-content {
+    display: flex;
+}
+.theme-1 {
+    position: absolute;
+    background-color: transparent;
+    width: 800px;
+    height: 200px;
+    top: 200px;
+    left: 82px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.theme-2 {
+    position: absolute;
+    background-color: transparent;
+    width: 800px;
+    height: 200px;
+    top: 420px;
+    left: 82px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.theme-3 {
+    position: absolute;
+    background-color: transparent;
+    width: 800px;
+    height: 200px;
+    top: 640px;
+    left: 82px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.butt-theme {
+    width: 800px;
+    height: 200px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+#interactive-themes {
+    position: absolute;
+    font-size: 48pt;
+    left: 100px;
+    top: 20px;
+    width: 800px;
+}
+.main-content {
+    background: rgb(137,205,224);
+    background: rgba(0,245,255,1);
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    top: 1820px;
+    left: 0px;
 }
 a.gobutt {
     background-color: #4CAF50; /* Green */
@@ -30,10 +84,10 @@ p {
     font-family: 'Comfortaa', cursive;
 }
 .text {
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Helvetica Neue';
     /*font-family: 'Open Sans', sans-serif;*/
     word-wrap: break-word;
-    color: white;
+    color: black;
     font-size: 64pt;
 }
 .text#subtitle {
@@ -60,9 +114,9 @@ li {
     left: 0px;
     top: 0px;
     width: 100%;
-    height: 1800px;
-    background: rgb(0,242,117);
-    background: linear-gradient(90deg, rgba(0,242,117,1) 0%, rgba(0,212,255,1) 100%);
+    height: 1820px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(131,250,255,1) 100%);
 }
 li.butt-in {
     display: inline;
@@ -77,7 +131,7 @@ li.butt-in {
 .buttbox {
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
-    color: white;
+    color: black;
     font-size: 40pt;
 }
 .title#header {
@@ -85,5 +139,13 @@ li.butt-in {
     position: absolute;
     left: 65px;
     top: 150px;
-    color:white;
+    color:black;
+}
+.text-butt {
+    font-family: 'Comfortaa', cursive;
+    font-size: 48pt;
+    left: 75px;
+    top: 5px;
+    width: 670px;
+    position: absolute;
 }

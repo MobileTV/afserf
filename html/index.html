@@ -3,26 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link href = "fonts/1/style.css" rel = "stylesheet"/>
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <div class="header">
-        <div id="box-butt">
-            <a href="javascript:void(0)" class="butt-active" id="non-active">
-                <img src="img/menu_white_24dp.svg" id="img-butt">
-            </a>
-            <div class="in-box" hidden>
-                <ul class="box">
-                    <li class="butt-in"><a href="#" class="buttbox" text="Главная"></a></li>
-                    <li class="butt-in"><a href="#" class="buttbox" text="Что нового?"></a></li>
-                    <li class="butt-in"><a href="#" class="buttbox" text="О нас"></a></li>
-                </ul>
+    <div class="main">
+        <div class="header">
+            <div id="box-butt">
+                <a href="javascript:void(0)" class="butt-active" id="non-active">
+                    <img src="img/menu_black_24dp.svg" id="img-butt">
+                </a>
+                <div class="in-box" hidden>
+                    <ul class="box">
+                        <li class="butt-in"><a href="#" class="buttbox" text="Главная"></a></li>
+                        <li class="butt-in"><a href="#" class="buttbox" text="Что нового?"></a></li>
+                        <li class="butt-in"><a href="#" class="buttbox" text="О нас"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box-text">
+                <p class="title" id="header">Добро пожаловать!</p>
+                <p class="text" id="subtitle">Данный сайт находится все еще на стадии разработки!</p>
             </div>
         </div>
-        <div class="box-text">
-            <p class="title" id="header">Добро пожаловать!</p>
-            <p class="text" id="subtitle">Данный сайт находится на стадии разработки! Больше новостей в Discord.</p>
-            <a href="https://discord.gg/MAtRDUZqg3" class="gobutt">Перейти</a>
+        <div class="main-content">
+            <p class="title" id="interactive-themes">Интеративные темы:</p>
+            <div class="theme-1">
+                <a class="butt-theme" href="#"></a>
+                <p class="text-butt">Задай нам вопрос!</p>
+            </div>
+            <div class="theme-2">
+                <a class="butt-theme" href="#"></a>
+                <p class="text-butt">Что нового?</p>
+            </div>
+            <div class="theme-3">
+                <a class="butt-theme" href="#"></a>
+                <p class="text-butt">Пока пусто...</p>
+            </div>
         </div>
     </div>
     <script src="js/index.js"></script>
